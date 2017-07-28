@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: url("mushroom.jpg");
 }
 
 * {
@@ -259,7 +259,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: url("mushroom.jpg");
 }
 
 * {
@@ -413,7 +413,7 @@ h3,
 
 .main-section {
   float: left;
-  width: 50%;
+  width: 40%;
 
   max-width: 650px;
   padding: 30px;
@@ -535,7 +535,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: url("mushroom.jpg");
 }
 
 * {
@@ -597,7 +597,7 @@ h3 {
 
 #logo {
   float: left;
-  margin-left: 40px;
+  margin-left: 300px;
   width: 150px;
   height: 70px;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -613,7 +613,7 @@ h3 {
 nav {
   float: right;
   margin-top: 15;
-  margin-right:70px;
+  margin-right:100px;
 }
 
 nav a {
@@ -647,10 +647,13 @@ footer {
 
 .sidebar {
   float: right;
-  width: 80%;
-  max-width: 270px;
-  padding: 20px;
-  margin-bottom: 10px;
+ margin-left:10px;
+ position:relative;
+ bottom:700px;
+
+
+  padding: 10px;
+  
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -681,11 +684,13 @@ h3,
 }
 
 .main-section {
+	margin-top:50px;
   float: left;
-  width: 40%;
+  width: 30%;
   max-width: 650px;
   padding: 30px;
-  margin-left: 30px;
+  position:relative;
+  right:70px;
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -696,7 +701,8 @@ h3,
   position: relative;
   float: left;
   width: 204px;
-  margin: 20px 0 25px;
+margin-bottom:20px;
+padding-right:30px;
   overflow: auto;
 }
 
@@ -708,13 +714,14 @@ h3,
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+
 }
 
 .work h3 {
   position: absolute;
   bottom: 20px;
   width: 80%;
-  
+  margin-right:20px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 20px;
@@ -722,6 +729,7 @@ h3,
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+  right:40px;
 }
 
 .auth-image {
@@ -729,7 +737,7 @@ h3,
   width: 100px;
   height: auto;
   margin-top: 10px;
-  margin-right: 25px;
+
 }
 
 /* contact page */
@@ -785,7 +793,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: url("mushroom.jpg");
 }
 
 * {
@@ -898,7 +906,7 @@ footer {
 
 .sidebar {
   float: right;
-  margin-right:30px;
+
   width: 100%;
   max-width: 270px;
   padding: 30px;
